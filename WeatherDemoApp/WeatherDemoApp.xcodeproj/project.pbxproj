@@ -26,6 +26,7 @@
 		0421691F296F0BEF00ED1211 /* Forecastday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0421691E296F0BEF00ED1211 /* Forecastday.swift */; };
 		04216921296F0C0D00ED1211 /* Hour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04216920296F0C0D00ED1211 /* Hour.swift */; };
 		04216923296F0C2C00ED1211 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04216922296F0C2C00ED1211 /* Location.swift */; };
+		04216926296F0CFF00ED1211 /* HttpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04216925296F0CFF00ED1211 /* HttpService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		0421691E296F0BEF00ED1211 /* Forecastday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forecastday.swift; sourceTree = "<group>"; };
 		04216920296F0C0D00ED1211 /* Hour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hour.swift; sourceTree = "<group>"; };
 		04216922296F0C2C00ED1211 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		04216925296F0CFF00ED1211 /* HttpService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +195,7 @@
 		04216924296F0C6900ED1211 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				04216925296F0CFF00ED1211 /* HttpService.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -341,6 +344,7 @@
 				042168D9296EB4F300ED1211 /* WeatherDemoApp.xcdatamodeld in Sources */,
 				042168CF296EB4F300ED1211 /* AppDelegate.swift in Sources */,
 				042168D1296EB4F300ED1211 /* SceneDelegate.swift in Sources */,
+				04216926296F0CFF00ED1211 /* HttpService.swift in Sources */,
 				04216910296EE3D800ED1211 /* WeatherForecastCell.swift in Sources */,
 				04216921296F0C0D00ED1211 /* Hour.swift in Sources */,
 			);
