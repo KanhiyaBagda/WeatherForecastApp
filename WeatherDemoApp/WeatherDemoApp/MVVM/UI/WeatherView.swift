@@ -65,7 +65,9 @@ class WeatherView: UIView,UICollectionViewDelegate,UICollectionViewDataSource,UI
             verticalSpace
         ])
         
-        
+        //7-day forecast – icon for current weather condition, minimum and maximum temperatures
+        //in Celsius and the date for the particular day
+                                        
         let layout = UICollectionViewFlowLayout()
         layout.scrollDirection = .horizontal
         let collectionView = UICollectionView(frame: CGRect.zero, collectionViewLayout: layout)
