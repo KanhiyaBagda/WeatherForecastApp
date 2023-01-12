@@ -1,3 +1,12 @@
+//
+//  Day.swift
+//  WeatherDemoApp
+//
+//  Created by mac on 11/01/23.
+//
+
+import Foundation
+
 struct Day : Codable {
     let maxtemp_c : Double?
     let maxtemp_f : Double?
@@ -69,11 +78,4 @@ struct Day : Codable {
     }
 
 }
-//
-//  Day.swift
-//  WeatherDemoApp
-//
-//  Created by mac on 11/01/23.
-//
 
-import Foundation

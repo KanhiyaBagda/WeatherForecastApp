@@ -8,6 +8,7 @@
 import UIKit
 
 class HttpService: NSObject {
+    var viewModel = WeatherMappedViewModel()
     
     
     func getWeatherData(){
@@ -20,7 +21,8 @@ class HttpService: NSObject {
             do {
                 let jsonDecoder = JSONDecoder()
                 let responseModel = try jsonDecoder.decode(WeatherDataModel.self, from: data)
-                print(responseModel)
+                self.viewModel.weatherModel = responseModel
+                self.viewModel.loadDataFromModel()
             }
             catch {
                     print("JSONSerialization error:", error)

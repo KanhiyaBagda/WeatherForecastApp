@@ -6,7 +6,6 @@
 //
 
 import Foundation
-
 struct WeatherDataModel : Codable {
     let location : Location?
     let current : Current?

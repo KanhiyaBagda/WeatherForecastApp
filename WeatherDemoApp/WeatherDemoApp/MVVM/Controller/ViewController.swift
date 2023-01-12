@@ -12,18 +12,19 @@ class ViewController: UIViewController {
     private var weatherUI = WeatherView()
     var service = HttpService()
     
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        //Fetch Weatherdata FromServer
+        service.getWeatherData()
         
         self.loadCustomView()
         
-        service.getWeatherData()
     }
-
+    
     func loadCustomView(){
-
+        
         weatherUI.translatesAutoresizingMaskIntoConstraints = false
         self.view.addSubview(weatherUI)
         
@@ -38,14 +39,6 @@ class ViewController: UIViewController {
             weatherUI.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 20),
             weatherUI.rightAnchor.constraint(equalTo: view.rightAnchor, constant: -20)
         ])
-        
-        //Assesment section 1
-        //Information of the city – country, city, current date and time
-        
     }
-    
-    
-    
-
 }
 
